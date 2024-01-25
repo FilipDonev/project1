@@ -1,0 +1,137 @@
+body{
+    background-color: #edcfcf;
+    font-family: Sans-serif;
+}
+h1 , p , a , button
+{
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #b53434;
+    border-radius: 10px;
+    padding: 15px;    
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+a:hover
+{
+
+    border-radius: 5px;
+    padding: 8px;
+    animation: myanimation 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+a{
+    text-decoration: none;
+}
+.promotion
+{
+    height: 500px;
+
+}
+.promotion img
+{
+    width: 98vw;
+    background-attachment: fixed;
+    position: absolute;
+    z-index: -1;
+}
+button:hover{
+    animation: myanimation 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes myanimation
+{
+    0%
+        {
+            box-shadow: 0 0 40px #edcfcf;
+        }
+    25%
+    {
+        box-shadow: 0 0 40px #b63535;
+    }
+    50%
+    {
+        box-shadow: 0 0 40px #edcfcf;
+    }
+    75%
+    {
+        box-shadow: 0 0 40px #b53434;
+    }
+    100%
+    {
+        box-shadow: 0 0 40px #edcfcf;
+    }
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.container article
+{
+    background-color: #b53434;
+    border-radius: 10px;
+}
+
+article p , article h1
+{
+    padding-left: 10px;
+    font-size: 1.5rem;
+    width: 440px;
+    word-wrap: break-word;
+}
+article h1{
+    font-size: 2rem;
+}
+.container img
+{
+    border-radius: 10px;
+    width: 450px;
+}
+.container1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.container1 button
+{
+    width: 150px;
+    height: 40px;
+    background-color: #edcfcf;
+    border-radius: 10px;
+    color: black;
+    font-size: 1.25rem;
+}
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;    
+    background-color: #b53434;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+div img{
+    width: 60px;
+}
+.right
+{
+    border-top: 2px solid #edcfcf;
+    width: 30vw;
+    font-size: 1.1rem;
+}
+footer div
+{
+    padding-left: 20px;
+}
